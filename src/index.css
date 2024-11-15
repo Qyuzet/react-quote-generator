@@ -1,0 +1,111 @@
+:root {
+  --list-color: #3498db #2ecc71 #e74c3c #f39c12;
+}
+
+body {
+  margin: 0;
+}
+.quotes-container {
+  min-height: 100vh;
+  background-color: #10b981;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.quote-box {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 42rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.quote-content {
+  text-align: center;
+}
+
+.quote-text {
+  color: #10b981;
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.quote-author {
+  color: #10b981;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #10b981;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.social-button:hover {
+  background-color: #059669;
+}
+
+.new-quote-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #10b981;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.new-quote-button:hover {
+  background-color: #059669;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 640px) {
+  .quote-box {
+    padding: 1.5rem;
+  }
+
+  .quote-text {
+    font-size: 1.5rem;
+  }
+
+  .quote-author {
+    font-size: 1.125rem;
+  }
+
+  .social-button {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .new-quote-button {
+    padding: 0.5rem 1rem;
+  }
+}
