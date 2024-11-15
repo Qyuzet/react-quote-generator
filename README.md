@@ -27,11 +27,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/random-quote-generator.git
+   git clone https://github.com/Qyuzet/react-quote-generator.git
    ```
 2. Navigate into the project directory:
    ```bash
-   cd random-quote-generator
+   cd react-quote-generator
    ```
 3. Install the dependencies:
    ```bash
