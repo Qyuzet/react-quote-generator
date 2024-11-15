@@ -5,7 +5,7 @@ A simple React-based web app that displays random quotes with the ability to sha
 
 ## Live Demo
 
-You can check out the live demo of this app [here](#https://codepen.io/Riki-A/pen/ZEgwZvP?editors=0110).
+You can check out the live demo of this app [here](https://codepen.io/Riki-A/pen/ZEgwZvP?editors=0110).
 
 ## Features
 
