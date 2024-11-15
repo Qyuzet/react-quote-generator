@@ -64,17 +64,3 @@ Contributions are welcome! If you have any suggestions, bug reports, or pull req
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-```
-
-### Key Sections of the README:
-
-1. **Live Demo**: You can replace `#` with your actual live demo link.
-2. **Features**: Highlights what the app does.
-3. **Technologies Used**: Lists technologies such as React, Lucide React, and CSS.
-4. **Installation**: Provides steps to run the app locally.
-5. **How to Use**: A brief on how users can interact with the app.
-6. **Code Structure**: Explains the main components and where key logic resides.
-7. **Contributions**: Encourages others to contribute or report issues.
-8. **License**: States that the project is open-source.
-
-Let me know if you'd like me to adjust anything or add additional sections!
